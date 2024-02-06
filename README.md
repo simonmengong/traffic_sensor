@@ -65,7 +65,7 @@ Enfin dans le terminal 4 lancer le producer kafka:
 
 ### Visualisation
 
-se rendre à l'adresse 
+se rendre à l'adresse. si le login est demandé: user: admin et password: admin 
 ```
 http://localhost:3000/explore?schemaVersion=1&panes=%7B%22FAa%22:%7B%22datasource%22:%22aa29c13e-c6d8-4b46-a853-f96dcc5ab1f7%22,%22queries%22:%5B%7B%22datasource%22:%7B%22type%22:%22influxdb%22,%22uid%22:%22aa29c13e-c6d8-4b46-a853-f96dcc5ab1f7%22%7D,%22query%22:%22from%28bucket:%20%5C%22my-bucket%5C%22%29%5Cn%7C%3E%20range%28start:%202022-05-31%29%5Cn%7C%3E%20filter%28fn:%20%28r%29%20%3D%3E%20r._measurement%20%3D%3D%20%5C%22traffic_final%5C%22%29%22,%22refId%22:%22A%22%7D%5D,%22range%22:%7B%22from%22:%221659340800000%22,%22to%22:%221659425100000%22%7D%7D%7D&orgId=1
 ```
