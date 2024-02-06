@@ -6717,3 +6717,4 @@ No GCs detected
 2024-02-06 12:30:23,021 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Transfer took 0.05s at 0.00 KB/s
 2024-02-06 12:30:23,022 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000000000002 size 351 bytes.
 2024-02-06 12:30:23,157 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 0
+2024-02-06 12:58:39,437 INFO BlockStateChange: BLOCK* processReport: from storage DS-fbadd809-820c-432b-8870-8fd9f92db866 node DatanodeRegistration(172.18.0.4:50010, datanodeUuid=9e12d200-caf7-4728-8cdd-7db3222beb74, infoPort=50075, infoSecurePort=0, ipcPort=50020, storageInfo=lv=-56;cid=CID-75cdf77c-393c-4e83-ad1d-57c6c3568445;nsid=1739663540;c=0), blocks: 0, hasStaleStorage: false, processing time: 26 msecs

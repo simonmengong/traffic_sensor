@@ -4403,3 +4403,5 @@ No GCs detected
 No GCs detected
 2024-02-06 12:47:06,073 INFO org.apache.hadoop.util.JvmPauseMonitor: Detected pause in JVM or host machine (eg GC): pause of approximately 5277ms
 GC pool 'Copy' had collection(s): count=1 time=5716ms
+2024-02-06 12:58:39,507 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0x4df59d04694,  containing 1 storage report(s), of which we sent 1. The reports had 0 total blocks and used 1 RPC(s). This took 38 msec to generate and 157 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+2024-02-06 12:58:39,512 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Got finalize command for block pool BP-1257412678-172.18.0.2-1707212426098
