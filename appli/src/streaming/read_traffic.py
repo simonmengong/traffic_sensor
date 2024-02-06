@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
     # Reduce logging
     spark.sparkContext.setLogLevel("WARN")
-    influxdb_writer = InfluxDBWriter(INFLUXDB_BUCKET, "traffic")
+    influxdb_writer = InfluxDBWriter(INFLUXDB_BUCKET, "traffic_final")
 
 
     df = spark \

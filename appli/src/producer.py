@@ -17,7 +17,7 @@ def send_parquet_records(parquet_file=FILE_PATH):
         for row, record in records2.items():
             message = json.dumps({"time": row.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-4]+"Z", "count": record})
             producer.send(TOPIC_NAME, value=message.encode(), key=None)
-            time.sleep(0.5)
+            time.sleep(0.1)
 
 
 
